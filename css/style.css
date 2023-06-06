@@ -506,7 +506,7 @@ footer .copy_right {
   text-align: center;
 }
 .hero_section .container .line .right .image img {
-  width: 55%;
+  width: 45%;
   -webkit-transform: translateX(250%);
           transform: translateX(250%);
   -webkit-animation: slide-right 0.9s 0.4s ease forwards;
