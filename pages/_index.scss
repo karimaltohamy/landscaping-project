@@ -308,25 +308,34 @@ $desc-green: #536e56;
 
   .boxs {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     gap: 30px;
     margin-top: 60px;
 
     .box {
-      padding: 40px;
+      padding: 30px;
       background-color: white;
       border-radius: 10px;
       display: flex;
-      gap: 20px;
+      flex-direction: column;
+      gap: 10px;
 
       &.active {
-        background-image: url("../images/img_what-we-do.jpg");
+        background-image: url("../images/lawn.jpeg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
         position: relative;
         overflow: hidden;
+
+        &:nth-child(6) {
+          background-image: url("../images/landscape.jpeg");
+        }
+
+        &:nth-child(7) {
+          background-image: url("../images/flower-beds.jpeg");
+        }
 
         &::before {
           content: "";
@@ -347,14 +356,15 @@ $desc-green: #536e56;
 
       .text {
         h4 {
-          font-size: 24px;
+          font-size: 20px;
           font-weight: 700;
+          margin-bottom: 0;
         }
 
         p {
-          margin: 20px 0;
-          font-size: 17px;
-          line-height: 1.6;
+          margin: 10px 0;
+          font-size: 15px;
+          line-height: 1.5;
         }
 
         a {

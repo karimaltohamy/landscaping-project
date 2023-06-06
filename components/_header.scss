@@ -181,3 +181,68 @@ header {
   }
 }
 // end header
+
+// start menu-mobile
+.menu-mobile {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  width: 70%;
+  background-color: white;
+  color: #0f1425;
+  padding: 70px 20px 0;
+  box-shadow: 0 0 15px #9f9f9f;
+  transition: all 0.4s;
+  z-index: 9999;
+
+  &.active {
+    left: 0;
+  }
+
+  .content {
+    position: relative;
+
+    .close-menu {
+      position: absolute;
+      top: -45px;
+      right: 5px;
+      cursor: pointer;
+
+      svg {
+        width: 35px;
+      }
+    }
+
+    .title {
+      font-size: 35px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .links {
+      .link {
+        display: block;
+        color: $text-green !important;
+        font-weight: 500;
+        font-size: 17px;
+        padding: 10px 0;
+        border-top: 1px solid #e3e3e3;
+        transition: all 0.3s;
+
+        &:last-child {
+          border-bottom: 1px solid #e3e3e3;
+        }
+
+        &.active {
+          color: $main-color !important;
+        }
+
+        &:hover {
+          color: $main-color !important;
+        }
+      }
+    }
+  }
+}
+// end menu-mobile
