@@ -23,6 +23,12 @@
     />
     <!-- aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- carousel -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
   </head>
   <body>
     <main>
@@ -133,37 +139,56 @@
       <div class="container">
         <div class="line">
           <div class="left">
-            <div class="subtitle">
+            <div class="subtitle" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="200">
               <img src="images/leaf.png" alt="leaf" loading="lazy" />
               About Us
             </div>
-            <h1 class="title">Professional Gardener</h1>
+            <h1 class="title" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="300">Professional Gardener</h1>
             <span class="secound_title"
+            data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="400"
               >Leader in landscaping, lawn care, and irrigation services in Los
               Angeles since 2004.</span
             >
-            <p class="desc">
+            <p class="desc" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="500">
               We are a specialized company in outdoor landscaping and garden
               care, providing professional garden design and maintenance
               services. Whether you're looking to enhance the appearance of your
               garden or keep your green spaces in the best condition, we are
               here to assist you.
             </p>
-            <div class="quote">
+            <div class="quote" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="600">
               "Our Company has established a reputation as the leader in
               landscape design."
             </div>
-            <div class="author">
+            <div class="author" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="700">
               Chris Stanley, <span>Founder of Pruners</span>
             </div>
 
-            <button class="btn_more">Read More</button>
+            <button class="btn_more" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="700">Read More</button>
           </div>
           <div class="right">
-            <div class="image">
+            <div class="image" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="500">
               <img src="images/about-img.png" alt="" />
             </div>
-            <div class="bg_person_about">
+            <div class="bg_person_about" data-aos="fade-up"
+                data-aos-duration="1400"
+                data-aos-delay="700">
               <img src="images/about-bg.jpg" alt="anim-image" loading="lazy" />
             </div>
           </div>
@@ -175,14 +200,20 @@
     <!-- start WHAT WE DO -->
     <div class="what_we_do_section">
       <div class="container">
-        <div class="subtitle">WHAT WE DO</div>
-        <h2 class="title">
+        <div class="subtitle" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300">WHAT WE DO</div>
+        <h2 class="title" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="500">
           What You Can Do <br />
           with Gettree
         </h2>
 
         <div class="boxs">
-          <div class="box">
+          <div class="box" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="300">
             <div class="icon">
               <img src="images/icon-can-do-01.png" alt="" />
             </div>
@@ -196,7 +227,9 @@
               <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="box active">
+          <div class="box active" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="600">
             <div class="icon">
               <img src="images/icon-can-do-02.png" alt="" />
             </div>
@@ -210,7 +243,9 @@
               <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="300">
             <div class="icon">
               <img src="images/icon-can-do-03.png" alt="" />
             </div>
@@ -224,7 +259,9 @@
               <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left"
+                data-aos-duration="800"
+                data-aos-delay="600">
             <div class="icon">
               <img src="images/icon-can-do-04.png" alt="" />
             </div>
@@ -243,6 +280,390 @@
     </div>
     <!-- end WHAT WE DO -->
 
+    <!-- start facts section -->
+    <div class="facts_section">
+      <div class="container">
+        <div class="boxs">
+          <div class="box"  data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="200">
+            <div class="icon">
+              <img src="images/park.png" alt="park" loading="lazy" />
+            </div>
+            <h1 class="num">2.5k</h1>
+            <div class="type">Completed Projects</div>
+          </div>
+          <div class="box" data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="400">
+            <div class="icon">
+              <img src="images/gardening.png" alt="park" loading="lazy" />
+            </div>
+            <h1 class="num">108</h1>
+            <div class="type">Expert Landscapers</div>
+          </div>
+          <div class="box" data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="600">
+            <div class="icon">
+              <img src="images/medal.png" alt="park" loading="lazy" />
+            </div>
+            <h1 class="num">23+</h1>
+            <div class="type">Awards And Honors</div>
+          </div>
+          <div class="box" data-aos="zoom-in"
+                data-aos-duration="1000"
+                data-aos-delay="800">
+            <div class="icon">
+              <img src="images/rating.png" alt="park" loading="lazy" />
+            </div>
+            <h1 class="num">99%</h1>
+            <div class="type">Satisfied Customers</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end facts section -->
+
+    <!-- start TESTIMONIALS -->
+    <div class="testimonials_section">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="subtitle" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="200">CLIENT TESTIMONIALS</div>
+            <h2 class="title" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="400">What our clients say</h2>
+            <p class="desc" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="600">
+              We pride ourselves on making sure every client is 100% satisfied.
+              Here’s what a few of our clients say about us…
+            </p>
+            <div class="carousle_container" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="800">
+              <div class="owl-carousel">
+                <div class="box">
+                  <div class="profile">
+                    <div class="image">
+                      <img src="images/img-user-01.jpg" alt="" />
+                      <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h4>Eugene Freeman</h4>
+                      <span>Nulla nec</span>
+                    </div>
+                  </div>
+                  <p>
+                    Gettree Landscaping Services has done such a great job on
+                    all of our landscaping, I rate 5 stars
+                  </p>
+                </div>
+                <div class="box">
+                  <div class="profile">
+                    <div class="image">
+                      <img src="images/img-user-02.jpg" alt="" />
+                      <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h4>Kelly Coleman</h4>
+                      <span>Nulla nec</span>
+                    </div>
+                  </div>
+                  <p>
+                    Gettree Landscaping Services has done such a great job on
+                    all of our landscaping, I rate 5 stars
+                  </p>
+                </div>
+                <div class="box">
+                  <div class="profile">
+                    <div class="image">
+                      <img src="images/img-user-01.jpg" alt="" />
+                      <div class="quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                      </div>
+                    </div>
+                    <div class="text">
+                      <h4>Eugene Freeman</h4>
+                      <span>Nulla nec</span>
+                    </div>
+                  </div>
+                  <p>
+                    Gettree Landscaping Services has done such a great job on
+                    all of our landscaping, I rate 5 stars
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right" data-aos="fade-down"
+                data-aos-duration="1000"
+                data-aos-delay="800"></div>
+        </div>
+      </div>
+    </div>
+    <!-- end TESTIMONIALS -->
+
+    <!-- start HOW IT WORKS -->
+    <div class="how_it_works_section">
+      <div class="container">
+        <div class="subtitle" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="200">
+          <img src="images/leaf.png" alt="leaf" loading="lazy" />
+          HOW IT WORKS
+        </div>
+        <h2 class="title" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="400">Working Process</h2>
+        <div class="boxs">
+          <div class="box" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300">
+            <div class="image">
+              <img
+                src="images/how-works-img.jpg"
+                alt="how-works-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <img src="images/operator.png" alt="" />
+              </div>
+              <span>STEP ONE</span>
+              <h4>Talk With Expert</h4>
+            </div>
+          </div>
+          <div class="box" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="600">
+            <div class="image">
+              <img
+                src="images/how-works-img2.jpg"
+                alt="how-works-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <img src="images/blueprint.png" alt="" />
+              </div>
+              <span>STEP TWO</span>
+              <h4>Design Proposal</h4>
+            </div>
+          </div>
+          <div class="box" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="900">
+            <div class="image">
+              <img
+                src="images/how-works-img3.jpg"
+                alt="how-works-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <img src="images/gardening2.png" alt="" />
+              </div>
+              <span>STEP THREE</span>
+              <h4>Start Planting</h4>
+            </div>
+          </div>
+          <div class="box" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="1200">
+            <div class="image">
+              <img
+                src="images/how-works-img4.jpg"
+                alt="how-works-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="content">
+              <div class="icon">
+                <img src="images/tree.png" alt="" />
+              </div>
+              <span>STEP FOUR</span>
+              <h4>Party With Family</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end HOW IT WORKS -->
+
+    <!-- start Our Gallery -->
+    <div class="our_gallery_section">
+      <div class="container">
+        <h2 class="title" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300">Our Gallery</div>
+          <p data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="500">Monotonectally pursue intuitive catalysts for change for extensible materials intrinsicly fabricate.</p>
+          <div class="boxs">
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="200">
+              <img src="images/pic1.png" alt="">
+            </div>
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="400">
+              <img src="images/pic2.png" alt="">
+            </div>
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="600">
+              <img src="images/pic3.png" alt="">
+            </div>
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="200">
+              <img src="images/pic4.png" alt="">
+            </div>
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="400">
+              <img src="images/pic5.png" alt="">
+            </div>
+            <div class="box" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="600">
+              <img src="images/pic6.png" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- end Our Gallery-->
+
+    <!-- start contact us -->
+    <div class="contact_us">
+      <div class="container">
+        <div class="line">
+          <div class="left">
+            <div class="image" data-aos="zoom-in"
+                data-aos-duration="800"
+                data-aos-delay="400">
+              <img src="images/img-contact.png" alt="">
+            </div>
+          </div>
+          <div class="right">
+            <div class="subtitle" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="200">FREE ESTIMATION</div>
+            <h2 class="title" data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-delay="400">Request a Quote</h2>
+            <form action="">
+              <input type="text" placeholder="Your Name" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200">
+              <input type="email" placeholder="Your Email" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="400">
+              <input type="number" placeholder="Your Number" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="600">
+              <textarea name="" placeholder="Your Message" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="800"></textarea>
+              <button class="btn_submit" data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="1000">Submit Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact us -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+          <div class="row line">
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="logo">
+                <img src="images/logo.png" alt="">
+              </div>
+              <p class="desc">Established since 1996. Mission Gettree Landscaping to become the best Garden Conpany in canada.</p>
+              <div class="social_media">
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+              <div class="links">
+                <h4 class="title_links">Explore</h4>
+                <ul class="user-links">
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">News &amp; Articles</a></li>
+                  <li><a href="#">FAQ's</a></li>
+                  <li><a href="#">Sign In/Registration</a></li>
+                  <li><a href="#">Coming Soon</a></li>
+                  <li><a href="#">Contacts</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-2">
+              <div class="links">
+                <h4 class="title_links">Links</h4>
+                <ul class="user-links">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">Instructor</a></li>
+                  <li><a href="#">Events</a></li>
+                  <li><a href="#">Instructor Profile</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+              <h4 class="title_links">Contact</h4>
+              <div class="info_item">
+                <i class="fa-solid fa-phone"></i>
+                <span>+92 (0088) 6823</span>
+              </div>
+              <div class="info_item">
+                <i class="fa-solid fa-message"></i>
+                <span>needhelp@company.com</span>
+              </div>
+              <div class="info_item">
+                <i class="fa-solid fa-location-dot"></i>
+                <span> 80 Broklyn Golden Street. New York. USA</span>
+              </div>
+
+              <div class="input_item">
+                <input type="text" placeholder="Email Address">
+                <button>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <p class="copy_right">© Copyright 2022 by 5Code Company</p>
+        </div>
+      </footer>
+    <!-- end footer -->
+
     <!-- jquery -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
@@ -258,6 +679,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <!-- script carousel-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
@@ -266,6 +690,7 @@
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/mouse-move.js"></script>
+    <script src="js/slide-testimonials.js"></script>
     <script>
       AOS.init();
     </script>
