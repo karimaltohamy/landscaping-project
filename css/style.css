@@ -212,6 +212,12 @@ header .container .links .btn_shop {
   font-weight: 600;
   margin-bottom: 30px;
 }
+.menu-mobile .content .logo {
+  margin-bottom: 20px;
+}
+.menu-mobile .content .logo img {
+  width: 65px;
+}
 .menu-mobile .content .links .link {
   display: block;
   color: #0f4229 !important;
