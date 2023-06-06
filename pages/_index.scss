@@ -362,18 +362,20 @@ $desc-green: #536e56;
         }
 
         p {
-          margin: 10px 0;
-          font-size: 15px;
+          margin: 5px 0;
+          font-size: 13px;
           line-height: 1.5;
-        }
 
-        a {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          color: $main-color !important;
-          font-size: 17px;
-          font-weight: 500;
+          .hide {
+            display: none;
+          }
+
+          .btn_read_text {
+            display: inline;
+            color: $main-color !important;
+            font-size: 14px;
+            cursor: pointer;
+          }
         }
       }
     }

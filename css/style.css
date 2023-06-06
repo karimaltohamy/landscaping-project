@@ -747,21 +747,18 @@ footer .copy_right {
   margin-bottom: 0;
 }
 .what_we_do_section .boxs .box .text p {
-  margin: 10px 0;
-  font-size: 15px;
+  margin: 5px 0;
+  font-size: 13px;
   line-height: 1.5;
 }
-.what_we_do_section .boxs .box .text a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 8px;
+.what_we_do_section .boxs .box .text p .hide {
+  display: none;
+}
+.what_we_do_section .boxs .box .text p .btn_read_text {
+  display: inline;
   color: #348e38 !important;
-  font-size: 17px;
-  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
